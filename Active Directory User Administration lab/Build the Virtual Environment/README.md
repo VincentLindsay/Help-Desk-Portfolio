@@ -42,7 +42,28 @@
 <img width="1912" height="1017" alt="image" src="https://github.com/user-attachments/assets/6c899226-4fcc-4def-9d1e-24bd9c08e244" />
 
 - Once downloaded, I began to deploy the client.
-- 
+- Since Windows 11 requires TPM, I configured the files to support a virtual TPM with a password.
+<img width="497" height="540" alt="image" src="https://github.com/user-attachments/assets/9176775c-6083-4bf4-a8b5-b07a1c6ae6b6" />
+
+- I selected "I don't have a product key."
+<img width="717" height="580" alt="image" src="https://github.com/user-attachments/assets/f13c5494-08d8-4275-a128-9409f36dd060" />
+
+
+- I chose to install Windows 11.
+<img width="1028" height="782" alt="image" src="https://github.com/user-attachments/assets/0f5e8b16-32ab-40e5-87b3-f5599db6e9a4" />
+
+- I named the VM to be **CLIENT01**
+<img width="1028" height="776" alt="image" src="https://github.com/user-attachments/assets/74cdb6c3-c1b4-446c-a76f-eb565bf64718" />
+
+- I Chose to set up for Work or School.
+<img width="938" height="685" alt="image" src="https://github.com/user-attachments/assets/351384c1-730d-41a2-979e-d36b3bc7c849" />
+
+- I selected domain join instead to be able to create a local windows account.
+<img width="942" height="683" alt="image" src="https://github.com/user-attachments/assets/b49df762-6db2-49e4-98ed-03997caf05c0" />
+
+- I created a simple account for the intial configurations.
+- After sometime, the VM was fully installed, and ready for further configurations.
+<img width="1025" height="772" alt="image" src="https://github.com/user-attachments/assets/57f0fb51-e748-4953-a606-ed1fd006e178" />
 
 
 
