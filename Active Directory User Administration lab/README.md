@@ -3,7 +3,7 @@
 
 # Table of contents
 
-- [Build the Virtual Environment]
+- [Build the Virtual Environment](https://github.com/VincentLindsay/Help-Desk-Portfolio/blob/main/Active%20Directory%20User%20Administration%20lab/Build%20the%20Virtual%20Environment/README.md)
 - [Configuring Networking Settings]
 - [Configuring Active Directory and its Architecture]
 - [Joining the machines to the Domain]
