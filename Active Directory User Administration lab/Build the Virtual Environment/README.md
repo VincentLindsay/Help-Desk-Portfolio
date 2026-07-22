@@ -1,7 +1,7 @@
 # Overview
 - This section will focus on the deployment of three VMs:
-  - Windows server 2022
-  - Windows 11 Client
+  - Windows server 2022.
+  - Windows 11 Client.
   - Ubuntu Server 24.04.4 for osTicket.
  
 # Deploying Servers
