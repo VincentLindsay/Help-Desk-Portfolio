@@ -38,4 +38,41 @@
 <img width="1028" height="332" alt="image" src="https://github.com/user-attachments/assets/213323d6-12e1-4b23-8304-99b055b57f0f" />
 
 - Next, I began to change the ip address of the osTicket server.
-- 
+- To change the IP address of the osTicket server, I needed to change the **yaml** file the the **/etc/netplan** directory.
+
+<img width="1377" height="103" alt="image" src="https://github.com/user-attachments/assets/b6a02cf5-6f3d-42a1-99f5-ba09ff1249bf" />
+
+- These are the configurations I chose to assign the server the IP address of **192.168.10.20**
+
+<img width="936" height="358" alt="image" src="https://github.com/user-attachments/assets/0f386fa8-9a19-4598-a4c4-ad052b26b694" />
+
+- The settings were successfully applied.
+
+
+- Now I made sure all machines can communicate with each other.
+- From the **DC**, I pinged the osTicket server.
+<img width="1017" height="698" alt="image" src="https://github.com/user-attachments/assets/353b54ed-7c89-4427-8655-b2428e640e27" />
+
+- To allow the Winndows machines to communicate with each other using ICMP pings, I enabled a firewall rule for inbound traffic
+<img width="1005" height="717" alt="image" src="https://github.com/user-attachments/assets/2f24f909-3a80-49c2-adcb-e63724379546" />
+
+- I also enabled the outbound rules to allow ICMP pings.
+<img width="1010" height="526" alt="image" src="https://github.com/user-attachments/assets/f4e09b84-31fb-4a8a-a325-127cf3c8d1e1" />
+
+
+- After this, I pinged the Windows machine from the DC
+<img width="1037" height="153" alt="image" src="https://github.com/user-attachments/assets/f08b967c-55d0-4388-bf8c-186e7c3d0af5" />
+
+- Now from the **Windows client**, I pinged both the DC, and the osTicket server.
+<img width="988" height="622" alt="image" src="https://github.com/user-attachments/assets/114a6f9b-4285-43c7-b803-05f01bb721cf" />
+
+- From the **osTicket** server, I pinged both the DC and the Windows client.
+<img width="1192" height="562" alt="image" src="https://github.com/user-attachments/assets/44e78379-7243-4999-b4f6-6788029674f5" />
+
+- Now the network settings are configured for this lab.
+
+
+
+
+
+
